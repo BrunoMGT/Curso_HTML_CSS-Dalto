@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+div{
+    margin: 0;
+}
+h1{
+    margin: 0;
+    font-size: 24px;
+}
+span{
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+p{
+    color: #555;
+    text-align: justify;
+}
+
+.notif{
+    background-color: antiquewhite;
+    padding: 20px;
+    /*Centrado de la caja*/
+    height: 40vh;
+    width: 80vw;
+    margin:auto;
+    margin-top: 10vh;
+    box-sizing: border-box;
+    /*Bordeecito*/
+    border-left: 4px solid #555;
+    border-radius: 0 30px 30px 0;
+}
+
+.goku{
+    height: 200px;
+    width: 300px;
+    margin: 10vh auto;
+    margin-top: 10vh;
+    background-image: url(https://elcomercio.pe/resizer/v2/6Y2EDIISGFGVFANEVDCR5LCG34.jpg?auth=f58b5c647a09717054d85bb8b9a6bc624bfcb14fe9c60b5246730ea6a513e2b0&width=1198&height=690&quality=75&smart=true);
+    background-size: cover;
+    background-position: center;
+}
+.gohan{
+    height: 200px;
+    width: 300px;
+    margin: 10vh auto;
+    margin-top: 10vh;
+    background-image: url(https://img.asmedia.epimg.net/resizer/v2/F5UTJAP4RZEV3EVPG7G4EEBWOE.jpg?auth=742bca7a9827b5e2fff0b5c9682b190a020bc34405a4f0da3e5ddf29d0674a70&width=1472&height=1104&smart=true);
+    background-size: cover;
+    background-position: top;
+}
+
+.dbz{
+    height: 100px;
+    width: 100%;
+    margin-top: 10vh;
+    background-image: url(https://elcomercio-depor-prod.web.arc-cdn.net/resizer/v2/LTGBDRTAQ5G6RDOQG43SFBSSBA.jpg?auth=0d1db5a9d527f43753ff618947b9afbdabac20d9a1a11b5695bd21c19fe12571&width=1200&height=1200&smart=true&quality=90);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+.link_box{
+    margin: 20px;
+    margin-top: 5vh;
+    box-sizing: border-box;
+}
+.link{
+    margin: 100px vw; margin-top: 100vh;
+    padding: 10px;
+    border: lightcoral solid 5px;
+    border-radius: 10px;
+    background: lightpink;
+    font-weight: bolder;
+    color: rgb(116, 18, 141);
+    text-decoration: none;
+}
+
+.body-grad{
+    background-color: rgb(124, 124, 196);
+}
+.tit-grad{
+    color: rgb(124, 124, 196);
+    text-align: center;
+    padding: 30px;
+    font-size: 40px;
+}
+
+/*...GRADIENTE LINEAL...*/
+.box-grad-l1{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+    background: linear-gradient(#0006, #000c);
+    border-radius: 20px 20px 0 0;
+    border-bottom: 10px solid black;
+}
+.box-grad-l2{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+    background: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet);
+    border-radius: 5px;
+    border: solid 2px white;
+}
+.box-grad-l3{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+    background: repeating-linear-gradient(90deg,black 9.5%, blue 10%, pink 35%);
+    border-radius: 5px;
+    border: solid 2px white;
+}
+.box-grad-l4{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+    background: repeating-linear-gradient(90deg, red, yellow 12.5%, red 25%);
+    border-radius: 5px;
+    border: solid 2px white;
+}
+
+/*...GRADIENTE RADIAL...*/
+.box-grad-r1{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+
+    background: radial-gradient(#000d, #0006);
+    border-radius: 100% 100% 100% 20px;
+    border-bottom: 8px solid black;    
+}
+.box-grad-r2{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+
+    background: radial-gradient(red,orange,yellow,green,blue,indigo,violet);
+    border-radius: 5px;
+    border: solid 2px white;
+}
+.box-grad-r3{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+
+    background: radial-gradient(circle, red,orange,yellow,green,blue,indigo,violet);
+    border-radius: 5px;
+    border: solid 2px white;
+}
+.box-grad-r4{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+
+    background: repeating-radial-gradient(red, yellow 12.5%, red 25%);
+    border-radius: 5px;
+    border: solid 2px white;
+}
+
+/*...SOMBRAS...*/
+.box-grad-s1{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+    border-radius: 5px; border: solid 2px white;
+
+    background:#000a;
+    box-shadow: 20px;
+}
+.box-grad-s2{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+    border-radius: 5px; border: solid 2px white;
+
+
+}
+.box-grad-s3{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+    border-radius: 5px; border: solid 2px white;
+
+ 
+}
+.box-grad-s4{
+    width: 60vw; height: 100px; margin: 50px 20vw;
+    border-radius: 5px; border: solid 2px white;
+
+
+}

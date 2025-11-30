@@ -1,0 +1,36 @@
+body{
+    margin: 0;
+}
+
+div{
+    background-color: antiquewhite;
+    padding: 20px;
+    font-family: sans-serif;
+    /*Centrado de la caja*/
+    height: 80vh;
+    width: 80vw;
+    margin:auto;
+    margin-top: 10vh;
+    box-sizing: border-box;
+}
+
+h1{
+    margin: 0;
+    font-size: 24px;
+}
+
+span{
+    color: #999;
+    font-size: 16px;
+    font-weight: 100;
+}
+
+p{
+    color: #555;
+    text-align: justify;
+}
+
+.xxxxx{
+    font-size: 50px;
+    line-height: 1ex;
+}
