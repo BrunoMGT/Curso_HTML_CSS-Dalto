@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select, Datalist y Option</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <form>
+
+        <!-- SIMPLE INPUTS -->
+        <h2>Formulario de contacto</h2>
+        <div class="form_input">
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" type="text" placeholder="Liu Khan">
+        </div>
+        <div class="form_input">
+            <label for="email">Email</label>
+            <input id="email" type="email" placeholder="liukhan_mk@ejemplo.com">
+        </div>
+
+        <!-- SELECT & OPTION -->
+        <div class="form_input">
+            <label for="mensaje">Tipo de usuario</label>
+            <select name="type-of-user">
+                <option value="user1">Opción 1</option>
+                <option value="user2">Opción 2</option>
+                <option value="user3">Opción 3</option>
+            </select>
+        </div>
+        <!-- DATALIST & OPTION -->
+        <div class="form_input">
+            <label for="mensaje">Referente</label>
+            <input list="referente">
+            <datalist id="referente">
+                <option value="Opción 1">Descripción 1</option>
+                <option value="Opción 2">Descripción 2</option>
+                <option value="Opción 3">Descripción 3</option>
+            </datalist>
+        </div>
+
+        <!-- TEXTAREA -->
+        <div class="form_input">
+            <label for="mensaje">Mesaje</label>
+            <textarea id="mensaje" rows="3" placeholder="Escriba aquí..."></textarea>
+        </div>
+        <div class="form_input">
+            <label for="tyc">Acepto los tárminos y condiciones</label>
+            <input type="checkbox" id="tyc" class="checkbox"></input>
+        </div>
+
+    </form>
+</body>
+</html>
