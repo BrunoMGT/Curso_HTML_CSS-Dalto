@@ -1,49 +1,27 @@
-body{
-    width: 600px;
-    margin: auto;
-    text-align: justify;
-}
-img{
-    display: block;
-    margin: 0 auto;
-}
-/*--------------------------------------------------------------------*/
-    /*Selectores por ATRIBUTO*/
-
-img[src$="jpg"]{
-    border-radius: 15%;
-    width: 50%;
-}   /* selec. las 'img' que su 'src' terminen en '...jpg' */
-
-
-    /*Selectores DESCENDIENTES*/
-ul li {
-    color: #666;
-}
-
-strong{
-    color:darkblue;
-}   /* selec. todos los 'strong'*/
-
-ul strong{
-    font-style: italic;
-}   /* selec. los 'strong' que estén drentro de un 'ul' */
-
-
-/*HIJO DIRECTO '>'*/
-ul > strong{
+body {
+    margin: 0;
     color: brown;
-}   /*No funciona porque el 'strong' de "fina" es nieto*/
-p > strong{
-    color: brown;
-}   /*funciona bien por ser hijo directo*/
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 
-/*Selector ADYACENTE - HERMANO DIRECTO*/
-h1 + p {
+    width: 1000px;
+}
+
+div {
+    margin: 10px;
+    padding: 10px;
+    background-color: #555;
+    color: orangered;
+
+    width: 70%;
+}
+
+h1 {
+    background-color: #999;
+    color: inherit;
+}
+p {
+    background-color: #ccc;
     color: blue;
-}
 
-/*Selectores HERMANOS GENERALES*/
-h1 ~ p {
-    color: pink;
+    width: initial;
 }
